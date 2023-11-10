@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolittle | Detalles</title>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body style="min-height: 100vh;">
+    <div id="app" v-cloak>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e6cda8 !important;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../../inicio.html"><img src="../images/Logo Dolittle.png"
+                            alt="Bootstrap" height="80"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../../inicio.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../pages/farmacia.html" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tiendas
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/jugueteria.html">Farmacia</a></li>
+                                    <li><a class="dropdown-item" href="../pages/jugueteria.html">Juguetería</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="btn btn-primary carrito" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="margin-right: 1rem;"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-cart imagen-carrito" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg></button>
+            </nav>
+            <div class="offcanvas offcanvas-end cuerpo-carrito" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Su carrito!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <table class="table table-hover table-borderless tabla-carrito">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Producto</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <!-- total -->
+                            <tr>
+                                <th scope="row">total</th>
+                                <td colspan="2"></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </header>
+        <main class="mainDetails flex-grow-1">
+            <div class="detPrin d-flex flex-wrap" id="contDetail">
+                <img class="imgDetails" v-bind:src="productoDetalle.imagen" v-bind:alt="productoDetalle.producto">
+                <div class="productDetails">
+                    <h2>{{productoDetalle.producto}}</h2>
+                    <h5>Categoria: {{productoDetalle.categoria}}</h5>
+                    <p>{{productoDetalle.descripcion}}</p>
+                    <h3>${{productoDetalle.precio}}</h3>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="imag">
+                <a class="icon-link" href="#">
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#box-seam"></use>
+                    </svg>
+                    <img class="img-footer" src="../images/facebook.png" alt="facebook">
+                </a>
+                <a class="icon-link" href="#">
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#box-seam"></use>
+                    </svg>
+                    <img class="img-footer" src="../images/instagram.png" alt="instagram">
+                </a>
+                <a class="icon-link" href="#">
+                    <svg class="bi" aria-hidden="true">
+                        <use xlink:href="#box-seam"></use>
+                    </svg>
+                    <img class="img-footer" src="../images/whatsapp.png" alt="whatsapp">
+                </a>
+            </div>
+            <img src="../images/Logo Dolittle 2.png" alt="Bootstrap" height="80">
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../javascript/detalle.js" type="module"></script>
+</body>
+
+</html>

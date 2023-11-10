@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dolittle | Contacto</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="../style/estilos.css">
+</head>
+
+
+<body class="body-contacto">
+	<div class="layout d-flex flex-column" id="app" v-cloak>
+		<header>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary nav-index">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="../../inicio.html"><img src="../images/Logo Dolittle.png"
+							alt="Bootstrap" height="80"></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" href="../../inicio.html">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contacto</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Tiendas
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../pages/farmacia.html">Farmacia</a></li>
+									<li><a class="dropdown-item" href="../pages/jugueteria.html">Juguetería</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		</header>
+
+		<main class="flex-grow-1">
+
+			<section class="contact" id="contact">
+				<div class="contacto-container">
+					<iframe class="map"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3361.217487839103!2d-58.403770324173!3d-34.59801527295637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9158e82c41%3A0x6a1cd58fa7e6383d!2sParaguay%202334%205%20f%2C%20C1121ABL%20CABA!5e1!3m2!1ses-419!2sar!4v1695393459140!5m2!1ses-419!2sar"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+					<form action="">
+
+						<h3 class="ctac-titulo">Ponerse en contacto</h3>
+						<div class="inputBox">
+							<span><i class="bi bi-person-circle"></i></span>
+							<input type="text" v-model="nombre" placeholder="Nombre">
+						</div>
+
+
+						<div class="inputBox">
+							<span><i class="bi bi-envelope-at-fill"></i></span>
+							<input type="email" v-model="mail" placeholder="E-mail">
+						</div>
+
+
+						<div class="inputBox">
+							<span><i class="bi bi-telephone-fill"></i></span>
+							<input type="number" v-model="numero" placeholder="Celular/Fijo">
+						</div>
+
+						<div class="inputBox">
+							<span><i class="bi bi-github"></i></span>
+							<input type="text" v-model="mascota" placeholder="¿Qué mascota tienes?">
+						</div>
+
+						<div class="inputBox">
+							<span><i class="bi bi-github"></i></span>
+							<input type="text" v-model="nombreMascota" placeholder="Nombre de tu mascota">
+						</div>
+
+						<div class="inputBox">
+							<textarea type="text" placeholder="Dejanos tu mensaje..." class="ctextarea"></textarea>
+
+						</div>
+
+						<input type="button" style="background-color: #f07e13; border: none;" class="btn btn-primary"
+							data-bs-toggle="modal" data-bs-target="#exampleModal" value="contactanos ahora">
+
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+							aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+
+									<div class="modal-body modal-imagen" style="height: 20rem;">
+										<img src="../images/mensaje-animales.jpg" alt="" style="object-fit: cover;">
+										<p>"Muchas gracias, {{nombre}}! Recibimos tu consulta y te responderemos lo
+											antes posible! Saludos a tu amigo/a {{nombreMascota}}!"</p>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+											style="background-color: #f07e13; border: none;">Entendido!</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Modal -->
+
+					</form>
+				</div>
+			</section>
+
+			<section class="contac-info">
+
+				<img src="../images/contacto_gato.png" class="info-gato" alt="gato">
+
+				<div class="info-local flex-grow-0">
+					<h5>Paraguay 2334 5 F </h5>
+
+					<h5><i class="fa-regular fa-clock"></i> Lunes a Sábado de 9 a 20hs</h5>
+					<h5><i class="fas fa-phone"></i><a href="tel:+54 9 362 553-2464" style="text-decoration: none; color: black;"> +54 9 362 553-2464 </a></h5>
+					<h5><i class="fas fa-envelope"></i><a href="mailto:dolittle.pet-shop@gmail.com" style="text-decoration: none; color: black;">
+							dolittle.pet-shop@gmail.com </a></h5>
+				</div>
+			</section>
+
+		</main>
+		<footer>
+			<div class="imag">
+				<a class="icon-link" href="#">
+					<svg class="bi" aria-hidden="true">
+						<use xlink:href="#box-seam"></use>
+					</svg>
+					<img class="img-footer" src="../images/facebook.png" alt="facebook">
+				</a>
+				<a class="icon-link" href="#">
+					<svg class="bi" aria-hidden="true">
+						<use xlink:href="#box-seam"></use>
+					</svg>
+					<img class="img-footer" src="../images/instagram.png" alt="instagram">
+				</a>
+				<a class="icon-link" href="#">
+					<svg class="bi" aria-hidden="true">
+						<use xlink:href="#box-seam"></use>
+					</svg>
+					<img class="img-footer" src="../images/whatsapp.png" alt="whatsapp">
+				</a>
+			</div>
+			<img src="../images/Logo Dolittle 2.png" alt="Bootstrap" height="80">
+		</footer>
+
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script src="../javascript/contacto.js" type="module"></script>
+
+</body>
+
+</html>

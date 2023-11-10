@@ -1,0 +1,152 @@
+[
+  {
+    "_id": "63a28d36cc6fff6724518aa3",
+    "producto": "Collar de pulgas para gatos",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/SKCQtDDv/collar-gatos.png",
+    "precio": 2000,
+    "disponibles": 5,
+    "descripcion": "Es un antiparasitario externo a base de Clorpirifos, organofosforado que actúa por tensión de vapor con acción larvicida y adulticida Clorpirifos: Ejerce su acción, inhibiendo la acetilcolinesterasa, con lo que se mantiene la acción de la acetilcolina, neurotransmisor encargado de facilitar la comunicación neuronal y neuromuscular. La acción sostenida de la acetilcolina produce en el parásito susceptible, parálisis de tipo espástico. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aa5",
+    "producto": "Collar de pulgas para perros",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/s2v7QdfZ/collar-perros.png",
+    "precio": 2000,
+    "disponibles": 1,
+    "descripcion": "Collar apto para perros con antiparasitario externo para el control de pulgas y garrapatas, con duración de hasta 10 meses.",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aa7",
+    "producto": "Cepillo",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/65P9WDPP/cepillo.jpg",
+    "precio": 1500,
+    "disponibles": 3,
+    "descripcion": "Complemento ideal para la limpieza y el cuidado de tu mascota. Se recomienda desenredar y cepillar el pelo de tu mascota una vez por semana, ya que previene la formación de nudos, la acumulación de suciedad y de pelo muerto. De está manera, se mantendrá limpio y brilloso por más tiempo.Beneficios :Elimina pelo muerto.Ayuda a mantener la higiene de tu mascota.Es suave al tacto. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aa9",
+    "producto": "Tableta para pulgas para perros",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/N04SMXM0/tableta-pulgas-perros.jpg",
+    "precio": 1600,
+    "disponibles": 0,
+    "descripcion": "Complemento ideal para la limpieza y el cuidado de tu mascota. Se recomienda desenredar y cepillar el pelo de tu mascota una vez por semana, ya que previene la formación de nudos, la acumulación de suciedad y de pelo muerto. De está manera, se mantendrá limpio y brilloso por más tiempo.Beneficios :Elimina pelo muerto.Ayuda a mantener la higiene de tu mascota.Es suave al tacto. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aab",
+    "producto": "Tableta para pulgas para gatos",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/m2kLGbmM/antipulgas-gatos.jpg",
+    "precio": 1600,
+    "disponibles": 3,
+    "descripcion": "Complemento ideal para la limpieza y el cuidado de tu mascota. Se recomienda desenredar y cepillar el pelo de tu mascota una vez por semana, ya que previene la formación de nudos, la acumulación de suciedad y de pelo muerto. De está manera, se mantendrá limpio y brilloso por más tiempo.Beneficios :Elimina pelo muerto.Ayuda a mantener la higiene de tu mascota.Es suave al tacto. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aad",
+    "producto": "Leche para cachorros",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/g2DbwQtd/leche-canina.jpg",
+    "precio": 2500,
+    "disponibles": 1,
+    "descripcion": "Perrolac es un sustituto lácteo para cachorros caninos.Es un alimento que permite la nutrición de cachorros, desde el primer día de vida, sin producir trastornos digestivos que perturben o hagan difícil la alimentación del neonato.Además, Perrolac permite atender la nutrición de perros enfermos y convalecientes de diferentes enfermedades, convirtiéndose en un alimento completo, de alta digestibilidad, concentrado en un pequeño volumen, atendiendo los requerimientos energéticos y nutricionales del perro.Perrolac surge ante la necesidad de contar con un producto de Nutrición Superior que cubra la falta de leche materna canina, especialmente entre el momento en que nacen los cachorros y la etapa que comienzan a ingerir las raciones regulares.",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d37cc6fff6724518aaf",
+    "producto": "Leche para gatitos",
+    "categoria": "farmacia",
+    "imagen": "https://i.postimg.cc/ZK81gXS3/leche-gatuna.jpg",
+    "precio": 2500,
+    "disponibles": 2,
+    "descripcion": "El GatoLac es un sustituto lácteo de Alimasc para gatitos que ha sido formulado para cubrir las necesidades energéticas y proteicas como así también los minerales, vitaminas y aminoácidos fundamentales para el desarrollo de los cachorros felinos, asemejándose a la leche materna de la gata",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518ab1",
+    "producto": "Huesos comestibles para perros",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/qM3FKSRS/huesos-perros.jpg",
+    "precio": 800,
+    "disponibles": 6,
+    "descripcion": "Snacks antiestress, ideales para una dentadura limpia y aliento fresco. Ayudan a mantener sus dientes y encías saludables, y al mismo tiempo, satisfacer su deseo innato de masticar.Esta fabricado de cuero de primera calidad.El hueso CanCat es un premio y un entretenimiento para su perro, promoviendo la salud dental y previniendo la formación de sarro. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518ab3",
+    "producto": "Hueso de goma",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/yYjL0KKf/hueso-goma.jpg",
+    "precio": 900,
+    "disponibles": 10,
+    "descripcion": "Este juguete satisface el natural comportamiento mordedor y da la máxima posibilidad de roer que sienten los perros activos, estimulando el juego y el ejercicio, al mismo tiempo que mantiene la salud bucal al masajear sus encías y fortalecer todo el sistema muscular de su mandíbula. Además, favorece la higiene dental porque limpia los dientes y los espacios entre los dientes durante el juego, gracias a las puás limpiadoras que posee. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518ab5",
+    "producto": "Rata 360",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/85LHcQwm/rata-360.jpg",
+    "precio": 1800,
+    "disponibles": 1,
+    "descripcion": "Hecho de material plástico de alta calidad, no tóxico y duradero, seguro para su gato. Un juguete perfecto para mejorar la salud y el bienestar general de nuestros gatos.Juguete interactivo para gatos",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518ab7",
+    "producto": "Pollito para gatos",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/1X5qQLdt/pollo-gatos.jpg",
+    "precio": 880,
+    "disponibles": 1,
+    "descripcion": "está fabricado con materiales suaves que aseguran que tu gato se sienta cómodo y relajado a la hora de jugar. Además de ser una excelente forma para descargar energía, los juguetes brindan un espacio lúdico donde tu gato puede estimular y desarrollar su mente.",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518ab9",
+    "producto": "Rascador para gatos",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/zfgw2YmY/rascador-gatos.jpg",
+    "precio": 3000,
+    "disponibles": 5,
+    "descripcion": "Con un rascador o poste de rascado, el gato hará todo el ejercicio que necesita para sentirse sano, ya que puede escalar, jugar, afilarse las uñas, etc. Un rascador de estas dimensiones puede compatibilizarlo con varios gatos que buscarán su ubicación favorita y evitará que escojan sus muebles como atalaya o rascador. Diseñado para entretener a los gatos de una manera segura y saludable. ",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518abb",
+    "producto": "Pelota roja para perros",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/zDtLh2MC/pelota-perros-roja.jpg",
+    "precio": 990,
+    "disponibles": 0,
+    "descripcion": "Juguetes de felpa, cuerdas para jugar, pelotas robustas de caucho natural y figuras coloridas hechas de vinilo o de duradero caucho termoplástico. Te ofrecemos todo lo que tu perro necesita para jugar y corretear. Sea nadar, con juguetes con sonido o sin sonido: Cada mascota de cuatro patas tiene sus propias necesidades y preferencias. Para perros particularmente activos, los discos para perros, rulos para morder, mordedores como también juguetes con premios y presas son los ideales.",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d38cc6fff6724518abd",
+    "producto": "Pelota dos colores para perros",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/TPNwbpNR/pelotas-perros-colores.jpg",
+    "precio": 500,
+    "disponibles": 20,
+    "descripcion": "Pelotas masticables para perros: 2 piezas de látex de goma de fútbol juguetes de dentición para perros cachorros juguetes sensoriales chirriantes para entrenamiento de mascotas",
+    "__v": 0
+  },
+  {
+    "_id": "63a28d39cc6fff6724518abf",
+    "producto": "Peluche de pelota",
+    "categoria": "jugueteria",
+    "imagen": "https://i.postimg.cc/cJPWZY58/peluche-jirafa.jpg",
+    "precio": 1050,
+    "disponibles": 15,
+    "descripcion": "El juego es la principal actividad para fomentar el vínculo entre la persona y la mascota, pero elige muy bien el material del juguete con el que jugáis. No solo es imprescindible para que tu perro esté sano y en forma, sino también para activar sus procesos mentales, decisivos para su educación. ¡Jugar con tu perro es muy divertido!",
+    "__v": 0
+  }
+]
